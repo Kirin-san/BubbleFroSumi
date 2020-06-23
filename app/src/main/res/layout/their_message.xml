@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:layout_width="327dp"
+        android:layout_height="54dp"
+        android:background="#F321D0"
+        android:gravity="center|left">
+
+
+        <TextView
+            android:id="@+id/name"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="your title"
+            android:text="Name"
+            android:textColor="#070707"
+            android:layout_width="72dp"
+            android:layout_height="30dp" />
+
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="your title"
+            android:text="Sumi's message"
+            android:textColor="#070707"
+            android:textSize="18sp" />
+
+
+    </TableRow>
+</TableLayout>
